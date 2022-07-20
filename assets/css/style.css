@@ -151,6 +151,7 @@ header {
 }
 
 main {
+  min-height: 80vh;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0) 2%);
   background-color: #F1f5f8;
   display: flex;
@@ -194,13 +195,13 @@ main h1 {
 }
 
 footer {
-  height: 2rem;
+  height: 10vh;
   background-color: #FFF;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1rem;
   color: #222;
-  margin-top: 1rem;
+  padding-top: 1rem;
   text-align: center;
 }
 
@@ -215,5 +216,14 @@ footer {
 	header {
 		height: 8vh;
 	}
+
+  .icons {
+    margin-top: 1rem;
+  }
+
+  .icons img {
+    width: 5vw;
+    height: 5vh;
+  }
   /* Для вертикальной ориентации */
 }
