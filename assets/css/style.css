@@ -205,32 +205,6 @@ footer {
   text-align: center;
 }
 
-
-@media (max-width: 767px) {
-	html {
-    font-size: 12px;
-  }
-}
-
-@media (orientation: portrait) {
-	header {
-		height: 8vh;
-	}
-
-  .icons {
-    margin-top: 1rem;
-  }
-
-  .icons img {
-    width: 5vw;
-    height: 5vh;
-  }
-  /* Для вертикальной ориентации */
-}
-
-
-/* projects */
-
 main a {
   text-decoration: none;
 }
@@ -256,3 +230,34 @@ main a {
   height: 10rem;
   width: 10rem;
 }
+
+
+@media (max-width: 767px) {
+	html {
+    font-size: 12px;
+  }
+}
+
+@media (orientation: portrait) {
+	header {
+		height: 8vh;
+	}
+
+  .icons {
+    margin-top: 1rem;
+  }
+
+  .icons img {
+    width: 5vw;
+    height: 5vh;
+  }
+
+  .section img {
+    height: 5rem;
+    width: 5rem;
+  }
+  /* Для вертикальной ориентации */
+}
+
+
+/* projects */
